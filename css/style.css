@@ -1,0 +1,236 @@
+/* SITE HEADER */
+
+#site-header {
+   text-align: center;
+}
+
+#site-nav-links {
+    padding: 1em;
+}
+
+#site-nav-links a {
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    font-size: 20px;
+    color: #3f7325;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 1em;
+    transition: all 0.3s ease;
+}
+
+#site-nav-links a:hover {
+    color: rgba(63, 115, 37, 0.8);
+    transition: all 0.3s ease;
+}
+
+/* SITE BANNER */
+
+.banner-container img {
+    width: 100%;
+}
+
+/* SITE BODY */
+
+#main-body {
+    margin-top: 1em;
+}
+
+#main-body img {
+    width: 100%;
+}
+
+#site-article {
+    font-family: 'Courier New';
+    font-weight: bold;
+    line-height: 1.49em;
+    padding: .8em;
+    background: rgba(63, 115, 37, 0.2);
+}
+
+.article-photo {
+    margin-top: 1.45em;
+}
+
+/* SITE GALLERY */
+
+#site-gallery {
+    margin: 1.7em 0;
+}
+
+#site-gallery img {
+    width: 100%;
+}
+
+/* SITE FOOTER */
+
+#site-footer {
+    background-color: #12127d;
+    color: #fff;
+}
+
+#site-footer .footer-container .orange-border {
+    height: .5em;
+    width: 100%;
+    background-color: orange;
+}
+
+#site-footer .details {
+    font-size: 18px;
+    padding: 1em;
+    text-align: center;
+}
+
+#site-footer .details .contact-us {
+    font-weight: bold;
+}
+
+#site-footer .details .school-social {
+    font-style: italic;
+}
+
+
+/* ENROLLMENT PAGE */
+
+.page-text-banner {
+    font-size: 5em;
+    color: #70ad47;
+}
+
+.enrollment-article {
+    font-family: 'Courier New';
+    font-weight: bold;
+    line-height: 1.49em;
+}
+
+.site-table {
+    width: 100%;
+}
+
+.site-table th {
+    padding: .5em;
+    background-color: #70ad47;
+    color: #fff;
+    text-align: center;
+}
+
+.site-table td {
+    padding: .5em;
+    text-align: center;
+}
+
+.site-table tr td:first-child {
+    background-color: #70ad47;
+    font-weight: bold;
+}
+
+.site-table tr:nth-child(even) {
+    background-color: #e2efd9;
+}
+
+.site-table tr:nth-child(odd) {
+    background-color: #c5e0b3 !important;
+}
+
+.site-table tbody td {
+    border: 1px solid #fff;
+}
+
+#school-stats img {
+    width: 100%;
+}
+
+.site-table-2-wrapper {
+    width: 60%;
+    float: right;
+}
+
+.site-table-2-wrapper img {
+    margin-left: 7em;
+}
+
+#site-charts::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.site-table-2 {
+    width: 100%;
+}
+
+.site-table-2 th {
+    padding: .5em;
+    background-color: #ed7d31;
+    color: #fff;
+    text-align: center;
+}
+
+.site-table-2 td {
+    padding: .5em;
+    text-align: center;
+}
+
+.site-table-2 tr td:first-child {
+    background-color: #ed7d31;
+    font-weight: bold;
+}
+
+.site-table-2 tr:nth-child(even) {
+    background-color: #fbe4d5;
+}
+
+.site-table-2 tr:nth-child(odd) {
+    background-color: #f7caac !important;
+}
+
+.site-table-2 tbody td {
+    border: 1px solid #fff;
+}
+
+.programs-container {
+    padding-top: 6em;
+}
+
+.programs-container img {
+    width: 40%;
+}
+
+/* PERSONNEL */
+
+.personnel-container {
+    font-family: 'Courier New';
+    font-weight: bold;
+    line-height: 1.49em;
+    padding: .8em;
+}
+
+.org-chart {
+    width: 100%;
+    margin: 2em 0;
+}
+
+/* BEST PRACTICES */
+.best-practices-article {
+    font-family: 'Courier New';
+    font-weight: bold;
+    line-height: 1.49em;
+}
+
+.best-practices-container .img-container img {
+    width: 100%;
+}
+
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.width-hack {
+    width: 104%;
+}
